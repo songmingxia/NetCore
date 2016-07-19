@@ -16,6 +16,8 @@ namespace helloworld
                 .UseUrls("http://localhost:8888")
                 .Build()
                 .Run();
+	        Console.WriteLine("test");
+            Console.WriteLine("test2");
         }
     }
 }
